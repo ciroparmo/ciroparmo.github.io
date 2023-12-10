@@ -1,0 +1,29 @@
+.containerCount {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerButtons {
+  display: flex;
+}
+
+.containerNumber {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countNumber {
+  margin: 0 30px;
+}
+
+button {
+  padding: 6px 30px;
+  border: 2px solid rgb(61, 83, 85);
+  border-radius: 5px;
+  margin: 10px 0;
+  background-color: rgb(123, 255, 255);
+}

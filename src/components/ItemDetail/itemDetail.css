@@ -1,0 +1,45 @@
+.containerItem {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  border: 3px solid rgb(194, 194, 194);
+  margin: 5px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.containerImg {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerInfo {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  text-align: center;
+  line-height: 0;
+}
+
+.img {
+  height: 200px;
+  width: fit-content;
+}
+
+.name {
+  font-weight: 900;
+}
+
+.containerPrice {
+  width: 10px;
+}
+
+.price {
+  font-weight: 800;
+}

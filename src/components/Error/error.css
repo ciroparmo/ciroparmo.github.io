@@ -1,0 +1,13 @@
+.containerError {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.errorText {
+  font-weight: 900;
+  font-size: 70px;
+  color: rgb(73, 73, 73);
+}
